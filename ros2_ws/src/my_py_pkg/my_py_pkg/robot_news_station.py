@@ -14,7 +14,7 @@ class RobotNewStationNode(Node):
 
     def publish_news(self):
         msg = String()
-        msg.data = "Hello, this is" + str(self.robot_name_) + "from the robot news station"
+        msg.data = "HelloPoom, this is " + self.robot_name_ + " from the robot news station"
         self.publisher_.publish(msg)
         self.get_logger().info("publisher_robot_news")
 
