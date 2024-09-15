@@ -1,0 +1,44 @@
+[0.299s] Invoking command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/prefix_override:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build
+[0.414s] running develop
+[0.480s] Removing /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.494s] Invoked command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/prefix_override:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build
+[0.495s] Invoking command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/prefix_override:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build install --record /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[0.596s] running egg_info
+[0.596s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.597s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.597s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.597s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.598s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.599s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.599s] running build
+[0.599s] running build_py
+[0.600s] copying my_py_pkg/Activity002_number_counter.py -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.600s] copying my_py_pkg/smartphone.py -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.600s] copying my_py_pkg/robot_news_station.py -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.600s] running install
+[0.600s] running install_lib
+[0.601s] creating /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.601s] copying /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/Activity002_number_counter.py -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.601s] copying /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.601s] copying /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.601s] copying /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.601s] copying /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.601s] copying /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.601s] byte-compiling /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/Activity002_number_counter.py to Activity002_number_counter.cpython-310.pyc
+[0.602s] byte-compiling /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[0.602s] byte-compiling /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[0.602s] byte-compiling /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-310.pyc
+[0.602s] byte-compiling /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[0.602s] byte-compiling /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[0.602s] running install_data
+[0.602s] copying resource/my_py_pkg -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.602s] copying package.xml -> /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.603s] running install_egg_info
+[0.603s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.604s] running install_scripts
+[0.612s] Installing py_node script to /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.612s] Installing robot_news_station script to /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.613s] Installing smartphone script to /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.613s] writing list of installed files to '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/install.log'
+[0.623s] Invoked command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/prefix_override:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/build install --record /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
