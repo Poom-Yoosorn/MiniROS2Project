@@ -19,11 +19,9 @@ class Activity002NumberCounter(Node):
       
     
     def publish_number_Counter(self):
-        #publish number_Counter
         new_msg = Int64()
         new_msg.data = self.Counter_
         self.publisher_.publish(new_msg)
-        #publish number_Counter
     
 
 def main(args=None):
