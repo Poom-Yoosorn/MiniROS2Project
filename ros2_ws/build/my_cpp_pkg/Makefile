@@ -249,6 +249,19 @@ Activity002_number_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Activity002_number_publisher.dir/build.make CMakeFiles/Activity002_number_publisher.dir/build
 .PHONY : Activity002_number_publisher/fast
 
+#=============================================================================
+# Target rules for targets named add_two_ints_server
+
+# Build rule for target.
+add_two_ints_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add_two_ints_server
+.PHONY : add_two_ints_server
+
+# fast build rule for target.
+add_two_ints_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/build
+.PHONY : add_two_ints_server/fast
+
 src/Activity002_number_publisher.o: src/Activity002_number_publisher.cpp.o
 .PHONY : src/Activity002_number_publisher.o
 
@@ -272,6 +285,30 @@ src/Activity002_number_publisher.s: src/Activity002_number_publisher.cpp.s
 src/Activity002_number_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Activity002_number_publisher.dir/build.make CMakeFiles/Activity002_number_publisher.dir/src/Activity002_number_publisher.cpp.s
 .PHONY : src/Activity002_number_publisher.cpp.s
+
+src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.o
+
+# target to build an object file
+src/add_two_ints_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.cpp.o
+
+src/add_two_ints_server.i: src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.i
+
+# target to preprocess a source file
+src/add_two_ints_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.cpp.i
+
+src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.s
+
+# target to generate assembly for a file
+src/add_two_ints_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.cpp.s
 
 src/my_first_node.o: src/my_first_node.cpp.o
 .PHONY : src/my_first_node.o
@@ -361,12 +398,16 @@ help:
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... Activity002_number_publisher"
+	@echo "... add_two_ints_server"
 	@echo "... cpp_node"
 	@echo "... robot_news_station"
 	@echo "... smartphone"
 	@echo "... src/Activity002_number_publisher.o"
 	@echo "... src/Activity002_number_publisher.i"
 	@echo "... src/Activity002_number_publisher.s"
+	@echo "... src/add_two_ints_server.o"
+	@echo "... src/add_two_ints_server.i"
+	@echo "... src/add_two_ints_server.s"
 	@echo "... src/my_first_node.o"
 	@echo "... src/my_first_node.i"
 	@echo "... src/my_first_node.s"
