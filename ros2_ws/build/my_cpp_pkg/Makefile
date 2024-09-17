@@ -262,6 +262,32 @@ add_two_ints_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/build
 .PHONY : add_two_ints_server/fast
 
+#=============================================================================
+# Target rules for targets named add_two_ints_client_no_oop
+
+# Build rule for target.
+add_two_ints_client_no_oop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add_two_ints_client_no_oop
+.PHONY : add_two_ints_client_no_oop
+
+# fast build rule for target.
+add_two_ints_client_no_oop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/build
+.PHONY : add_two_ints_client_no_oop/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_client
+
+# Build rule for target.
+add_two_ints_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add_two_ints_client
+.PHONY : add_two_ints_client
+
+# fast build rule for target.
+add_two_ints_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/build
+.PHONY : add_two_ints_client/fast
+
 src/Activity002_number_publisher.o: src/Activity002_number_publisher.cpp.o
 .PHONY : src/Activity002_number_publisher.o
 
@@ -285,6 +311,54 @@ src/Activity002_number_publisher.s: src/Activity002_number_publisher.cpp.s
 src/Activity002_number_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Activity002_number_publisher.dir/build.make CMakeFiles/Activity002_number_publisher.dir/src/Activity002_number_publisher.cpp.s
 .PHONY : src/Activity002_number_publisher.cpp.s
+
+src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.o
+
+# target to build an object file
+src/add_two_ints_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.cpp.o
+
+src/add_two_ints_client.i: src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.i
+
+# target to preprocess a source file
+src/add_two_ints_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.cpp.i
+
+src/add_two_ints_client.s: src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.s
+
+# target to generate assembly for a file
+src/add_two_ints_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.cpp.s
+
+src/add_two_ints_client_no_oop.o: src/add_two_ints_client_no_oop.cpp.o
+.PHONY : src/add_two_ints_client_no_oop.o
+
+# target to build an object file
+src/add_two_ints_client_no_oop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o
+.PHONY : src/add_two_ints_client_no_oop.cpp.o
+
+src/add_two_ints_client_no_oop.i: src/add_two_ints_client_no_oop.cpp.i
+.PHONY : src/add_two_ints_client_no_oop.i
+
+# target to preprocess a source file
+src/add_two_ints_client_no_oop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.i
+.PHONY : src/add_two_ints_client_no_oop.cpp.i
+
+src/add_two_ints_client_no_oop.s: src/add_two_ints_client_no_oop.cpp.s
+.PHONY : src/add_two_ints_client_no_oop.s
+
+# target to generate assembly for a file
+src/add_two_ints_client_no_oop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_two_ints_client_no_oop.dir/build.make CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.s
+.PHONY : src/add_two_ints_client_no_oop.cpp.s
 
 src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
 .PHONY : src/add_two_ints_server.o
@@ -398,6 +472,8 @@ help:
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... Activity002_number_publisher"
+	@echo "... add_two_ints_client"
+	@echo "... add_two_ints_client_no_oop"
 	@echo "... add_two_ints_server"
 	@echo "... cpp_node"
 	@echo "... robot_news_station"
@@ -405,6 +481,12 @@ help:
 	@echo "... src/Activity002_number_publisher.o"
 	@echo "... src/Activity002_number_publisher.i"
 	@echo "... src/Activity002_number_publisher.s"
+	@echo "... src/add_two_ints_client.o"
+	@echo "... src/add_two_ints_client.i"
+	@echo "... src/add_two_ints_client.s"
+	@echo "... src/add_two_ints_client_no_oop.o"
+	@echo "... src/add_two_ints_client_no_oop.i"
+	@echo "... src/add_two_ints_client_no_oop.s"
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
