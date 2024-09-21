@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces
+[0.013s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.081s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.081s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.081s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.158s] -- Configuring done
+[0.160s] -- Generating done
+[0.160s] -- Build files have been written to: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces
+[0.161s] Invoked command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces
+[0.163s] Invoking command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[0.181s] Invoked command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[0.200s] Invoking command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces
+[0.204s] -- Install configuration: ""
+[0.204s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[0.204s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[0.204s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[0.204s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[0.204s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[0.204s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[0.204s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[0.204s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[0.205s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[0.205s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[0.205s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[0.205s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[0.205s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[0.205s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[0.205s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[0.206s] Invoked command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces
