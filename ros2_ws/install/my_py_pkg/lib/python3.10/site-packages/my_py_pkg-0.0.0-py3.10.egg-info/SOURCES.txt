@@ -9,6 +9,8 @@ setup.py
 ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
 ../../build/my_py_pkg/my_py_pkg.egg-info/zip-safe
 my_py_pkg/Activity002_number_counter.py
+my_py_pkg/Activity4_BatteryNode.py
+my_py_pkg/Activity4_LedPanelNode.py
 my_py_pkg/__init__.py
 my_py_pkg/add_two_ints_client.py
 my_py_pkg/add_two_ints_client_no_oop.py

@@ -2,6 +2,8 @@
   "package_name": "my_robot_interfaces",
   "non_idl_tuples": [
     "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
-    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv"
+    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces:srv/SetLED.srv",
+    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces:msg/LedStatus.msg"
   ]
 }

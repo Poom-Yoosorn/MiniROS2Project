@@ -27,7 +27,9 @@ setup(
             "add_two_ints_server = my_py_pkg.add_two_ints_server:main",
             "add_two_ints_client_no_oop = my_py_pkg.add_two_ints_client_no_oop:main",
             "add_two_ints_client = my_py_pkg.add_two_ints_client:main",
-            "hw_status_publisher = my_py_pkg.hw_status_publisher:main"
+            "hw_status_publisher = my_py_pkg.hw_status_publisher:main",
+            "Activity4_BatteryNode = my_py_pkg.Activity4_BatteryNode:main",
+            "Activity4_LedPanelNode = my_py_pkg.Activity4_LedPanelNode:main"
         ],
     },
 )

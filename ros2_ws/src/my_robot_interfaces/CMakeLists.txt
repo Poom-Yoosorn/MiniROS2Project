@@ -13,6 +13,8 @@ find_package(rosidl_default_generators REQUIRED) #for create own msg/srv
 rosidl_generate_interfaces(${PROJECT_NAME} #for create own msg/srv
   "msg/HardwareStatus.msg"
   "srv/ComputeRectangleArea.srv"
+  "srv/SetLED.srv"
+  "msg/LedStatus.msg"
 )
 
 
