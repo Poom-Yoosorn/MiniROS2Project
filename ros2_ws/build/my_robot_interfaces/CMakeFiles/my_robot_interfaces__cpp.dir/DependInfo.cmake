@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp" "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__struct.hpp" "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__traits.hpp" "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp" "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp" "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp" "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp" "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   )
 
 

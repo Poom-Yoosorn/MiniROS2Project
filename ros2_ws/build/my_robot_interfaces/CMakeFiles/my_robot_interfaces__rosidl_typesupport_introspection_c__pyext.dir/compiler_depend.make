@@ -245,8 +245,19 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ro
   rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.h \
   rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h \
-  rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
 
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h:
 
@@ -380,6 +391,8 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h:
 
 rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
@@ -497,6 +510,8 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 /usr/include/python3.10/pymacconfig.h:
 
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h:
 
 /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h:
 
