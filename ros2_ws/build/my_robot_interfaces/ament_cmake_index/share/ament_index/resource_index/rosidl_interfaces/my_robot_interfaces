@@ -1,5 +1,7 @@
 msg/HardwareStatus.idl
 msg/HardwareStatus.msg
+msg/LedStateArray.idl
+msg/LedStateArray.msg
 msg/LedStatus.idl
 msg/LedStatus.msg
 srv/ComputeRectangleArea.idl
@@ -10,3 +12,7 @@ srv/SetLED.idl
 srv/SetLED.srv
 srv/SetLED_Request.msg
 srv/SetLED_Response.msg
+srv/SetLedOriginal.idl
+srv/SetLedOriginal.srv
+srv/SetLedOriginal_Request.msg
+srv/SetLedOriginal_Response.msg

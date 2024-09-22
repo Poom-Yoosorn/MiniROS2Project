@@ -5,8 +5,10 @@
   "idl_tuples": [
     "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
     "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStatus.idl",
     "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLED.idl",
-    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStatus.idl"
+    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl",
+    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLedOriginal.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -24,7 +26,9 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
     "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
     "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
+    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStatus.idl",
     "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLED.idl",
-    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStatus.idl"
+    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStateArray.idl",
+    "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLedOriginal.idl"
   ]
 }

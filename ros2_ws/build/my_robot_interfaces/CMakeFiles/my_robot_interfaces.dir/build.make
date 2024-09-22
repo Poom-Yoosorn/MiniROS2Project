@@ -70,10 +70,14 @@ CMakeFiles/my_robot_interfaces: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/
 CMakeFiles/my_robot_interfaces: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces/srv/ComputeRectangleArea.srv
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Request.msg
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Response.msg
+CMakeFiles/my_robot_interfaces: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces/msg/LedStatus.msg
 CMakeFiles/my_robot_interfaces: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces/srv/SetLED.srv
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/SetLED_Request.msg
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/SetLED_Response.msg
-CMakeFiles/my_robot_interfaces: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces/msg/LedStatus.msg
+CMakeFiles/my_robot_interfaces: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces/msg/LedStateArray.msg
+CMakeFiles/my_robot_interfaces: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/src/my_robot_interfaces/srv/SetLedOriginal.srv
+CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/SetLedOriginal_Request.msg
+CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/SetLedOriginal_Response.msg
 
 my_robot_interfaces: CMakeFiles/my_robot_interfaces
 my_robot_interfaces: CMakeFiles/my_robot_interfaces.dir/build.make
