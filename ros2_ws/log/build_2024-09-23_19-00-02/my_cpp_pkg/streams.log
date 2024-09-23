@@ -1,0 +1,65 @@
+[0.010s] Invoking command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg:/home/poom/ros2_ws/install/my_cpp_pkg:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.060s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.222s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.264s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.267s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.273s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.321s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.388s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.441s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.473s] -- Found my_robot_interfaces: 0.0.0 (/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.523s] -- Configuring done
+[0.553s] -- Generating done
+[0.553s] -- Build files have been written to: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_cpp_pkg
+[0.585s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.586s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[0.587s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[0.587s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.587s] [35m[1mConsolidate compiler generated dependencies of target hw_status_publisher[0m
+[0.588s] [35m[1mConsolidate compiler generated dependencies of target Activity002_number_publisher[0m
+[0.588s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.588s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.620s] [  6%] [32mBuilding CXX object CMakeFiles/Activity002_number_publisher.dir/src/Activity002_number_publisher.cpp.o[0m
+[0.620s] [ 18%] Built target cpp_node
+[0.620s] [ 31%] Built target robot_news_station
+[0.620s] [ 43%] Built target add_two_ints_server
+[0.622s] [ 50%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[0.625s] [ 62%] Built target add_two_ints_client
+[0.626s] [ 75%] Built target smartphone
+[0.627s] [ 87%] Built target add_two_ints_client_no_oop
+[11.005s] [100%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[11.006s] [100%] [32m[1mLinking CXX executable Activity002_number_publisher[0m
+[11.158s] [100%] Built target Activity002_number_publisher
+[11.158s] [100%] Built target hw_status_publisher
+[11.168s] Invoked command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg:/home/poom/ros2_ws/install/my_cpp_pkg:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[11.219s] Invoking command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg:/home/poom/ros2_ws/install/my_cpp_pkg:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_cpp_pkg
+[11.223s] -- Install configuration: ""
+[11.224s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[11.226s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[11.226s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[11.227s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/Activity002_number_publisher
+[11.231s] -- Set runtime path of "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/Activity002_number_publisher" to ""
+[11.231s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[11.232s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[11.233s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[11.234s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+[11.234s] -- Set runtime path of "/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher" to ""
+[11.235s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[11.235s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[11.235s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[11.235s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[11.235s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[11.235s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[11.235s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[11.235s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[11.235s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[11.235s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[11.235s] -- Installing: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[11.235s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[11.235s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[11.236s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[11.236s] -- Up-to-date: /home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[11.236s] Invoked command in '/home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_robot_interfaces:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_cpp_pkg:/home/poom/ros2_ws/install/my_cpp_pkg:/home/poom/Desktop/ROS2_MiniProject/ros2_ws/install/my_py_pkg:/home/poom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/poom/Desktop/ROS2_MiniProject/ros2_ws/build/my_cpp_pkg

@@ -7,6 +7,8 @@ class RobotNewStationNode(Node):
     def __init__(self):
         super().__init__("robot_news_station") # MODIFY NAME
 
+        self.declare_parameter("In_number")
+        
         self.robot_name_ = "C3PO"
         self.publisher_ = self.create_publisher(String,"robot_news", 10)
         self.timer_ = self.create_timer(0.5,self.publish_news)

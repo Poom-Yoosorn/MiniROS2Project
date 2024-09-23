@@ -7,6 +7,8 @@ class Activity002NumberPublisher : public rclcpp::Node
 public:
     Activity002NumberPublisher() : Node("Activity002_number_publisher") 
     {
+        this->declare_parameter("name",10);
+
         publisher_ = this->create_publisher<example_interfaces::msg::Int64>("number",10);
         Timer_ = this->create_wall_timer(std::chrono::milliseconds(500),
                                          std::bind(&Activity002NumberPublisher::publishNumber, this));

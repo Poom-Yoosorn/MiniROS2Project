@@ -31,7 +31,8 @@ setup(
             "Activity4_BatteryNode = my_py_pkg.Activity4_BatteryNode:main",
             "Activity4_LedPanelNode = my_py_pkg.Activity4_LedPanelNode:main",
             "led_panel = my_py_pkg.led_panel:main",
-            "battery = my_py_pkg.battery:main"
+            "battery = my_py_pkg.battery:main",
+            "Activity002_number_publisher = my_py_pkg.Activity002_number_publisher:main"
         ],
     },
 )
