@@ -1,0 +1,6 @@
+collect2: fatal error: ld terminated with signal 11 [Segmentation fault], core dumped
+compilation terminated.
+gmake[2]: *** [CMakeFiles/Activity002_number_publisher.dir/build.make:175: Activity002_number_publisher] Error 1
+gmake[2]: *** Deleting file 'Activity002_number_publisher'
+gmake[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/Activity002_number_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
