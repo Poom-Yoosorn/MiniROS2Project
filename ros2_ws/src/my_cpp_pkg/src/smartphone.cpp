@@ -16,7 +16,6 @@ private:
     void callbackRobotNews(const example_interfaces::msg::String::SharedPtr msg)
     {
         RCLCPP_INFO(this->get_logger(), "%s", msg->data.c_str());
-        RCLCPP_INFO(this->get_logger(),"smartphone node has been Recieved");
     }
 
     rclcpp::Subscription<example_interfaces::msg::String>::SharedPtr subscriber_;

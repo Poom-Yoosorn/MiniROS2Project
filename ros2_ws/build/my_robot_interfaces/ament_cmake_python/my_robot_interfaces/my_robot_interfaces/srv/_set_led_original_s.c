@@ -50,13 +50,13 @@ bool my_robot_interfaces__srv__set_led_original__request__convert_from_py(PyObje
     assert(strncmp("my_robot_interfaces.srv._set_led_original.SetLedOriginal_Request", full_classname_dest, 64) == 0);
   }
   my_robot_interfaces__srv__SetLedOriginal_Request * ros_message = _ros_message;
-  {  // lednumber
-    PyObject * field = PyObject_GetAttrString(_pymsg, "lednumber");
+  {  // led_number
+    PyObject * field = PyObject_GetAttrString(_pymsg, "led_number");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->lednumber = PyLong_AsLongLong(field);
+    ros_message->led_number = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
   {  // state
@@ -90,11 +90,11 @@ PyObject * my_robot_interfaces__srv__set_led_original__request__convert_to_py(vo
     }
   }
   my_robot_interfaces__srv__SetLedOriginal_Request * ros_message = (my_robot_interfaces__srv__SetLedOriginal_Request *)raw_ros_message;
-  {  // lednumber
+  {  // led_number
     PyObject * field = NULL;
-    field = PyLong_FromLongLong(ros_message->lednumber);
+    field = PyLong_FromLongLong(ros_message->led_number);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "lednumber", field);
+      int rc = PyObject_SetAttrString(_pymessage, "led_number", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

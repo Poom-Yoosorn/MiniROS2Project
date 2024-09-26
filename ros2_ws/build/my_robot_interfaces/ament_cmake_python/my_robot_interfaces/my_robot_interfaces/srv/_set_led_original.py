@@ -55,12 +55,12 @@ class SetLedOriginal_Request(metaclass=Metaclass_SetLedOriginal_Request):
     """Message class 'SetLedOriginal_Request'."""
 
     __slots__ = [
-        '_lednumber',
+        '_led_number',
         '_state',
     ]
 
     _fields_and_field_types = {
-        'lednumber': 'int64',
+        'led_number': 'int64',
         'state': 'int64',
     }
 
@@ -73,7 +73,7 @@ class SetLedOriginal_Request(metaclass=Metaclass_SetLedOriginal_Request):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.lednumber = kwargs.get('lednumber', int())
+        self.led_number = kwargs.get('led_number', int())
         self.state = kwargs.get('state', int())
 
     def __repr__(self):
@@ -105,7 +105,7 @@ class SetLedOriginal_Request(metaclass=Metaclass_SetLedOriginal_Request):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.lednumber != other.lednumber:
+        if self.led_number != other.led_number:
             return False
         if self.state != other.state:
             return False
@@ -117,19 +117,19 @@ class SetLedOriginal_Request(metaclass=Metaclass_SetLedOriginal_Request):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def lednumber(self):
-        """Message field 'lednumber'."""
-        return self._lednumber
+    def led_number(self):
+        """Message field 'led_number'."""
+        return self._led_number
 
-    @lednumber.setter
-    def lednumber(self, value):
+    @led_number.setter
+    def led_number(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'lednumber' field must be of type 'int'"
+                "The 'led_number' field must be of type 'int'"
             assert value >= -9223372036854775808 and value < 9223372036854775808, \
-                "The 'lednumber' field must be an integer in [-9223372036854775808, 9223372036854775807]"
-        self._lednumber = value
+                "The 'led_number' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._led_number = value
 
     @builtins.property
     def state(self):

@@ -24,7 +24,7 @@ private:
         msg.data = std::string("Hi,This is ")+robot_name_+std::string(" from the robot new station");
         publisher_->publish(msg);
 
-        RCLCPP_INFO(this->get_logger(), "Robot New Station has been published");
+        // RCLCPP_INFO(this->get_logger(), "Robot New Station has been published");
     }
 
 
